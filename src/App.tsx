@@ -6,7 +6,7 @@ function App() {
     <>
      <MyComponent text='Hello World!'/>
       {
-        MyComponent({text: 'Hello2'})
+        MyComponent({text: 'Hello3'})
       }
     </>
   );
