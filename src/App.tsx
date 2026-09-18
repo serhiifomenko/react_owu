@@ -1,15 +1,25 @@
 import './App.css';
-import { products } from './components/data/productsList';
-import MyProduct from './components/my-product/MyProduct';
 
-function App() {
+const coursesTitleArray: string[] = [
+    'JavaScript Complex',
+    'Java Complex',
+    'Python Complex',
+    'QA Complex',
+    'Fullstack',
+    'Frontend'
+];
+
+const App = () => {
     return (
         <>
-            {products.map((product) => (
-                <MyProduct key={product.title} product={product} />
-            ))};
+            <ul>
+                {
+                coursesTitleArray.map((value, index) => <li key={index}>{value}</li>)
+                }
+            </ul>
         </>
     );
 }
 
 export default App;
+
