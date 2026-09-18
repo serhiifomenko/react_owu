@@ -77,3 +77,12 @@ export default defineConfig([
 git rm .idea/ -r --cached 
 git add -u .idea/
 git commit -m "Removed the .idea folder"
+
+
+#gi01MZ6v
+
+
+з arrays.js взяти масив coursesTitleArray. Вивести кожен його елемент, створивши необхідні моделі та компоненти
+
+
+Стилізація довільна, але обов’язково підключена і мінімально зроблена (хоча б один стиль, який працює).
