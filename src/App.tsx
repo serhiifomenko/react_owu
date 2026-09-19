@@ -1,13 +1,8 @@
 import './App.css';
-import {FamilyComponent} from "./components/family-component/FamilyComponent.tsx";
+import { ModuleComponent } from './components_courses/module_component/ModuleComponent';
 
-
-const App = () => {
-    return (
-        <>
-            <FamilyComponent/>
-        </>
-    );
+function App() {
+    return <ModuleComponent/>;
 }
 
 export default App;
